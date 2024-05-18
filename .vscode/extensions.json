@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "yoavbls.pretty-ts-errors",
+    "rangav.vscode-thunder-client",
+    "gruntfuggly.todo-tree"
+  ]
+}

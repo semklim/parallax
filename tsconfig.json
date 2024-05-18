@@ -48,6 +48,7 @@
       }
     ]
   },
+  "files": ["node_modules/gsap/types/index.d.ts"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"

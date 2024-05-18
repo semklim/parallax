@@ -1,0 +1,54 @@
+.hero{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgImgHero{
+  position: absolute;
+  z-index: 0;
+}
+
+.bgImgHeroBlue{
+  bottom: 35%;
+  left: 20%;
+  transform: rotate(225deg);
+}
+.bgImgHeroRed{
+  top: 40%;
+  right: 70%;
+  transform: rotate(247deg);
+}
+
+.heroEntity{
+  z-index: 0;
+  position: absolute;
+  left: 57%;
+  top: 13%;
+}
+
+.heroContent{
+  position: relative;
+  z-index: 10;
+}
+
+.mainTitle{
+  max-width: 1630px;
+  font-family: 'ClashGrotesk';
+  font-size: 128px;
+  line-height: 1;
+  background: var(--main-gradient) no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subTitle{
+  margin-top: 36px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: normal;
+}

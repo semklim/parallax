@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Metrophobic&display=swap');
+
+// Define font-face for Clash Grotesk
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('/fonts/ClashGrotesk/ClashGrotesk-Medium.woff2') format('woff2'),
+       url('/fonts/ClashGrotesk/ClashGrotesk-Medium.woff') format('woff'),
+       url('/fonts/ClashGrotesk/ClashGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('/fonts/ClashGrotesk/ClashGrotesk-Semibold.woff2') format('woff2'),
+       url('/fonts/ClashGrotesk/ClashGrotesk-Semibold.woff') format('woff'),
+       url('/fonts/ClashGrotesk/ClashGrotesk-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}

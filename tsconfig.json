@@ -55,5 +55,6 @@
     }
   },
   "include": ["./config/jest/setupTests.ts", "./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["./tailwind.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

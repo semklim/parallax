@@ -1,6 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import './variables/_global';
 @import './_reset';
-
 
 :root {
   font-family: 'ClashGrotesk', 'Inter', 'Metrophobic', sans-serif;
@@ -24,6 +27,10 @@ body {
   min-height: 100vh;
   background: black;
   overflow-x: hidden;
+}
+
+img{
+  user-select: none;
 }
 
 #root{

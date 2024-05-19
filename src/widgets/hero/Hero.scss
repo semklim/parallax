@@ -7,7 +7,7 @@
 }
 
 .bgImgHero{
-  position: absolute;
+  position: fixed;
   z-index: 0;
 }
 
@@ -24,7 +24,7 @@
 
 .heroEntity{
   z-index: 0;
-  position: absolute;
+  position: fixed;
   left: 56%;
   top: 12%;
 }

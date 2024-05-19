@@ -1,0 +1,11 @@
+.statisticWrapper{
+  width: 30%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  background: var(--main-gradient-20);
+  border-radius: 91px;
+}

@@ -1,10 +1,11 @@
 @use './fonts/fonts.scss';
 
 :root{
-  --red: #ff4a59;
-  --orange: #fc6f32;
-  --violet: #b53ea4;
-  --main-gradient: linear-gradient(140deg, var(--violet) 0%, var(--orange) 20%, var(--red) 100%);
+  --red: 255, 74, 89;
+  --orange: 252, 111, 50;
+  --violet: 181, 62, 164;
+  --main-gradient: linear-gradient(140deg, rgb(var(--violet)) 0%, rgb(var(--orange)) 20%, rgb(var(--red)) 100%);
+  --main-gradient-20: linear-gradient(140deg, rgba(var(--violet), 0.2) 0%, rgba(var(--orange), 0.2) 20%, rgba(var(--red), 0.2) 100%);
 
 }
 
